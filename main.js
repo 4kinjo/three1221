@@ -12,17 +12,17 @@ light.position.set(15, 15, 15);
 scene.add(light);
 const geometry = new THREE.TorusKnotGeometry(10, 3, 200, 40);
 const material = new THREE.MeshPhysicalMaterial({
-    color: '#ffffff',
-    emissive: '#000000',
-    emissiveIntensity: '0',
-    roughness: '0',
-    metalness: '0',
-    reflectivity: 0.5,
-    iridescence: '0',
-    clearcoat: '0',
-    clearcoatRoughness: '0',
-    specularIntensity: '0',
-    specularColor: '#000000'
+    color: '#c1829e',
+    emissive: '#90fc99',
+    emissiveIntensity: '0.1245',
+    roughness: '0.2875',
+    metalness: '0.7451',
+    reflectivity: 0.0625,
+    iridescence: 0.8575,
+    clearcoat: 0.5204,
+    clearcoatRoughness: 0.5232,
+    specularIntensity: 0.4152,
+    specularColor: '#80a5be'
 });
 const mesh = new THREE.Mesh(geometry, material);
 scene.add(mesh);
